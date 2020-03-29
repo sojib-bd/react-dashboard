@@ -9,7 +9,8 @@ import SingleLineStroke from './SingleLineStroke';
 
 const useStyles = makeStyles({
     root: {
-        width: 300,
+        width: 250,
+        height: 200
     },
     bullet: {
         display: 'inline-block',
@@ -31,7 +32,7 @@ export default function Card1() {
     return (
         <Card className={classes.root}>
             <CardContent >
-                <Typography className={classes.title} color="textPrimary" gutterBottom style={{ marginLeft: -200 }}>
+                <Typography className={classes.title} color="textPrimary" gutterBottom style={{ marginLeft: -150 }}>
                     Visit Today
                </Typography>
                 <div style={{ display: 'flex', alignItems: 'center' }}>

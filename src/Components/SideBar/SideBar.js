@@ -189,7 +189,7 @@ function ResponsiveDrawer(props) {
                         </Drawer>
                     </Hidden>
                 </nav>
-                <main className={classes.content} style={{ marginTop: '100px' }}>
+                <main className={classes.content} style={{ marginTop: '15px' }}>
                     <Switch>
                         <Route path='/dashboard'>
                             <Dashboard />
